@@ -1,0 +1,19 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2450
+
+This plugin provide display help text on dexplorer(MSDN help).
+'dexplorer.exe' process must be started in advance.
+
+Requirements:
+- Vim7.1 or later.
+- Python
+http://www.python.org/download/
+- Python Win32 Extension
+http://sourceforge.net/project/showfiles.php?group_id=78018
+
+Key mapping:
+In normal mode
+<space>h  Search the word under the cursor.
+In visual mode
+<space>h Search the text selected in visual mode.
+
+

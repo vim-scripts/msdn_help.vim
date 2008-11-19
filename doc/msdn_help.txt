@@ -1,0 +1,52 @@
+*msdn_help.txt*	provide look up msdn(dexplorer.exe) help.
+
+Last change: 19-Nov-2008
+Version : 0.0.1
+Copyright (C) 2008 ampmmn <http://d.hatena.ne.jp/ampmmn>
+
+Contents:
+  OVERVIEW..................|msdnh-overview|
+  COMMANDS..................|msdnh-commands|
+  MAPPING...................|msdnh-mapping|
+  CHANGELOG.................|msdnh-changelog|
+
+================================================================================
+OVERVIEW				*msdnh-overview*
+
+Requirements:
+- Vim 7.1 or later(unknown previous version.)
+- With +python(/dyn) option(configure option --python-interp).
+
+This plugin provide display help text on dexplorer(MSDN help).
+'dexplorer.exe' process must be started in advance.
+
+Suport MSDN version is VS2003, and probably 2005,2008(unconfirmed).
+
+================================================================================
+COMMANDS				*msdnh-commands*
+
+*MSDNHelpKeyword*
+MSDNHelpKeyword
+Search the text selected in visual mode.
+
+*MSDNHelpCursorText*
+MSDNHelpCursorText
+Search the word under the cursor.
+
+================================================================================
+MAPPING					*msdnh-mapping*
+
+In normal-mode
+	<space>h ... call MSDNHelpCursorText command.
+
+In visual-mode
+	<space>h ... call MSDNHelpKey command.
+
+================================================================================
+CHANGELOG				*msdnh-changelog*
+
+0.0.1		2008-11-19	Initial version.
+
+================================================================================
+vim:ts=4 sw=4 noexpandtab tw=78 ft=help:
+
